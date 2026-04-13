@@ -1,6 +1,6 @@
 {
-  "name": "react-native-zendesk-messaging",
-  "version": "0.3.2",
+  "name": "@bleulibelluleit/react-native-zendesk-messaging",
+  "version": "0.4.0",
   "description": "Zendesk messaging SDK for React Native",
   "workspaces": [
     "examples/*"
@@ -54,7 +54,8 @@
   },
   "homepage": "https://github.com/leegeunhyeok/react-native-zendesk-messaging#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://npm.pkg.github.com",
+    "access": "public"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^17.7.0",
@@ -91,8 +92,8 @@
     "node": ">= 18.0.0"
   },
   "sdkVersions": {
-    "android": "2.13.0",
-    "ios": "2.13.0"
+    "android": "2.38.0",
+    "ios": "2.38.0"
   },
   "packageManager": "yarn@4.6.0",
   "commitlint": {
